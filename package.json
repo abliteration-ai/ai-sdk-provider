@@ -1,5 +1,5 @@
 {
-  "name": "@abliteration-ai/ai-sdk-provider",
+  "name": "@abliterationai/ai-sdk-provider",
   "version": "0.1.0",
   "description": "Abliteration.ai provider for the Vercel AI SDK.",
   "license": "Apache-2.0",

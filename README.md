@@ -8,14 +8,14 @@ official docs at <https://docs.abliteration.ai>.
 ## Install
 
 ```sh
-npm install @abliteration-ai/ai-sdk-provider ai
+npm install @abliterationai/ai-sdk-provider ai
 ```
 
 ## Usage
 
 ```ts
 import { generateText } from 'ai';
-import { abliteration } from '@abliteration-ai/ai-sdk-provider';
+import { abliteration } from '@abliterationai/ai-sdk-provider';
 
 const { text } = await generateText({
   model: abliteration.chat('abliterated-model'),
@@ -26,7 +26,7 @@ const { text } = await generateText({
 Set `ABLIT_KEY` or pass `apiKey` to `createAbliteration`.
 
 ```ts
-import { createAbliteration } from '@abliteration-ai/ai-sdk-provider';
+import { createAbliteration } from '@abliterationai/ai-sdk-provider';
 
 const ablit = createAbliteration({
   apiKey: process.env.ABLIT_KEY,
